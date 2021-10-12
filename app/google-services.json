@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381712932467",
+    "project_id": "d-cluster",
+    "storage_bucket": "d-cluster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381712932467:android:291b2c33d95c09eda69406",
+        "android_client_info": {
+          "package_name": "com.andre.dcluster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381712932467-lms4pj0cv12iokrm65om6odq7ku9c6mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUrJHtOvN08Iv8Scf-KX43J64WmeTs89M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381712932467-lms4pj0cv12iokrm65om6odq7ku9c6mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

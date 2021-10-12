@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.login.Login">
+
+    <data>
+
+        <import type="androidx.lifecycle.ViewModel" />
+
+        <variable
+            name="viewModel"
+            type="com.andre.dcluster.ui.login.LoginVM" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.createUser()}">
+        </Button>
+    </LinearLayout>
+</layout>
