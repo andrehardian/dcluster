@@ -22,8 +22,8 @@ public class LoginRepository {
         this.firebaseAuth = firebaseAuth;
     }
 
-    public void login() {
-        firebaseAuth.signInWithEmailAndPassword("andrehardian@gmail.com","abangGorengan").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+    public void login(String username, String password) {
+        firebaseAuth.signInWithEmailAndPassword(username,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 Log.d("crot",task.isSuccessful()+"");
