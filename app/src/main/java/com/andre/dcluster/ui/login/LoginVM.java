@@ -16,6 +16,6 @@ public class LoginVM extends ViewModel {
 
 
     public void createUser() {
-        repo.createUser();
+        repo.login();
     }
 }

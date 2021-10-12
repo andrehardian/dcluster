@@ -23,10 +23,10 @@ public class LoginRepository {
     }
 
     public void login() {
-        firebaseAuth.signInWithEmailAndPassword("","").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        firebaseAuth.signInWithEmailAndPassword("andrehardian@gmail.com","abangGorengan").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-
+                Log.d("crot",task.isSuccessful()+"");
             }
         });
 
